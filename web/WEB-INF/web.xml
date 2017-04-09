@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <locale-encoding-mapping-list>
+        <locale-encoding-mapping>
+            <locale></locale>
+            <encoding>UTF-8</encoding>
+        </locale-encoding-mapping>
+    </locale-encoding-mapping-list>
+    <servlet>
+        <!--<display-name>FindServlet</display-name>-->
+        <servlet-name>FindServlet</servlet-name>
+        <servlet-class>SelvetPackage.FindServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FindServlet</servlet-name>
+        <url-pattern>/FindServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
