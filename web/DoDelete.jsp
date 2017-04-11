@@ -13,7 +13,7 @@
 </head>
 <body>
 <%
-    int flag;
+
     String id = request.getParameter("id");
     System.out.printf(id);
     User user = new User();

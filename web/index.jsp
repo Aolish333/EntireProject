@@ -141,10 +141,10 @@
                 <div id="limage"></div>
                 <div id="rlist">
                     <ul>
-                        <li><a href="新闻.html" target="_blank">新闻</a></li>
-                        <li><a href="新闻.html" target="_blank">新闻</a></li>
-                        <li><a href="新闻.html" target="_blank">新闻</a></li>
-                        <li><a href="新闻.html" target="_blank">新闻</a></li>
+                        <li><a href="#" target="_blank">新闻</a></li>
+                        <li><a href="#" target="_blank">新闻</a></li>
+                        <li><a href="#" target="_blank">新闻</a></li>
+                        <li><a href="#" target="_blank">新闻</a></li>
                     </ul>
                 </div>
             </div>
@@ -152,10 +152,10 @@
                 <div id="limage"></div>
                 <div id="rlist">
                     <ul>
-                        <li><a href="新闻.html" target="_blank">新闻</a></li>
-                        <li><a href="新闻.html" target="_blank">新闻</a></li>
-                        <li><a href="新闻.html" target="_blank">新闻</a></li>
-                        <li><a href="新闻.html" target="_blank">新闻</a></li>
+                        <li><a href="#" target="_blank">新闻</a></li>
+                        <li><a href="#" target="_blank">新闻</a></li>
+                        <li><a href="#" target="_blank">新闻</a></li>
+                        <li><a href="#" target="_blank">新闻</a></li>
                     </ul>
                 </div>
             </div>
@@ -163,10 +163,10 @@
                 <div id="limage"></div>
                 <div id="rlist">
                     <ul>
-                        <li><a href="新闻.html" target="_blank">新闻</a></li>
-                        <li><a href="新闻.html" target="_blank">新闻</a></li>
-                        <li><a href="新闻.html" target="_blank">新闻</a></li>
-                        <li><a href="新闻.html" target="_blank">新闻</a></li>
+                        <li><a href="#" target="_blank">新闻</a></li>
+                        <li><a href="#" target="_blank">新闻</a></li>
+                        <li><a href="#" target="_blank">新闻</a></li>
+                        <li><a href="#" target="_blank">新闻</a></li>
                     </ul>
                 </div>
             </div>
@@ -174,10 +174,10 @@
                 <div id="limage"></div>
                 <div id="rlist">
                     <ul>
-                        <li><a href="新闻.html" target="_blank">新闻</a></li>
-                        <li><a href="新闻.html" target="_blank">新闻</a></li>
-                        <li><a href="新闻.html" target="_blank">新闻</a></li>
-                        <li><a href="新闻.html" target="_blank">新闻</a></li>
+                        <li><a href="#" target="_blank">新闻</a></li>
+                        <li><a href="#" target="_blank">新闻</a></li>
+                        <li><a href="#" target="_blank">新闻</a></li>
+                        <li><a href="#" target="_blank">新闻</a></li>
                     </ul>
                 </div>
             </div>
@@ -205,6 +205,11 @@
                             <tr>
                                 <td>
                                     <input type="submit" name="" value="登陆">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="InSert.jsp">点击注册</a>
                                 </td>
                             </tr>
                         </table>

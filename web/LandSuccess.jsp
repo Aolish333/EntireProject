@@ -46,5 +46,6 @@
     </table>
     <jsp:include page="DisplayBar.jsp"/>
 </form>
+<a href="index.jsp">返回主界面（新闻界面）</a>
 </body>
 </html>

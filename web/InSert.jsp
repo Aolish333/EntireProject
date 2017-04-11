@@ -40,7 +40,7 @@
     </script>
 </head>
 <body>
-<form accept-charset="UTF-8" action="DoInsert.jsp" name="register" method="post" onsubmit="return check(this)">
+<form accept-charset="UTF-8" action="AddServlet" name="register" method="post" onsubmit="return check(this)">
     <table>
         <tr align="center">
             <td>账号：</td>
