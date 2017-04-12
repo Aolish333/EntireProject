@@ -39,7 +39,8 @@ public class FindServlet extends HttpServlet {
             out.print(user.getType());
             if(user.getType().equals("普通用户")){
                 out.print("登陆"+user.getUsername()+"成功...");
-                resp.setHeader("refresh","3,URL=LandSuccess.jsp");
+                //LandSuccess.jsp
+                resp.setHeader("refresh","3,URL=PagingServlt");
             }else{
                 out.print("登陆"+user.getUsername()+"成功"+",三秒后进入跳转页面");
                 //NewPage.jsp

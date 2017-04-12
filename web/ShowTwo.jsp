@@ -154,7 +154,7 @@
 
 <div class="con_1 content " align="center">
     <jsp:include page="ShowPage.jsp"/>
-    <h1>注：分页界面在普通用户中展示</h1>
+    <h1>注：分页界面在普通用户中展示（右上角有按钮）</h1>
 </div>
 <div class="con_2 content" align="center">
 </div>

@@ -48,20 +48,21 @@
         #footer {
             width: 1002px;
             height: 100px;
+            margin-top: 7px;
             background-color: blue;
         }
 
         .news {
+            /*margin-left: 30px;*/
             width: 273px;
             height: 200px;
             /*background-color: red;*/
             float: left;
             border: 1px green solid;
             /*margin: 10px;*/
-            margin-top: 10px;
-            margin-right: 20px;
-            /*margin:30px 0px 30px 10px;从上顺时针写*/
-            margin-right: 10px;
+            /*margin-top: 10px;*/
+            /*margin-right: 20px;*/
+            margin:30px 0px 20px 40px;
             /*padding: 10px;*/
         }
 
@@ -80,10 +81,10 @@
         }
 
         #nav li {
-            margin-right: 10px;
+            margin-right: 53px;
             list-style: none;
             float: left;
-            margin-bottom: 10px;
+            margin-top: -5px;
         }
 
         #nav a:hover {
@@ -103,7 +104,7 @@
         }
 
         #nav1 {
-            list-style: none;
+            list-style: inherit;
         }
 
         #nav1 a {
@@ -112,9 +113,9 @@
 
         #nav1 li {
             float: left;
-            width: 80px;
+            width: 33px;
             height: 20px;
-            margin-block-start: 10px;
+            margin-block-start: 14px;
         }
 
         #nav1 a:hover {
@@ -123,8 +124,8 @@
     </style>
 </head>
 
-<body>
-<div id="containar">
+<body >
+<div id="containar" align="center">
     <div id="header"></div>
     <div id="nav">
         <img src="./resource/logo.jpg">
@@ -182,11 +183,11 @@
                 </div>
             </div>
         </div>
-        <div id="rside">
+        <div id="rside" align="left">
             <td style="background-color:cornflowerblue;width:100px;vertical-align:top;">
                 <h3><b>用户登陆</b>
                     <form action="FindServlet" method="post" >
-                        <table>
+                        <table >
                             <tr>
                                 <td>用户名：</td>
                                 <td><input type="text" name="username" value=""></td>
@@ -214,9 +215,11 @@
                             </tr>
                         </table>
                     </form>
+                    注：分页功能在普通用户中展示。
                     <br>
-                    >每日新闻<br>
-                    >直接推送<br>
+                    显示条在管理员中显示。
+                    <br>
+
                 </h3>
             </td>
         </div>

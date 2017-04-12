@@ -46,4 +46,13 @@
         <servlet-name>UpdateServlet</servlet-name>
         <url-pattern>/UpdateServlet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PagingServlt</servlet-name>
+        <servlet-class>SelvetPackage.PagingServlt</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PagingServlt</servlet-name>
+        <url-pattern>/PagingServlt</url-pattern>
+    </servlet-mapping>
 </web-app>
