@@ -20,8 +20,10 @@
     user.setId(request.getParameter("id"));
     UserPackage userPackage = new UserPackage();
     User user1 = userPackage.SingQuire(user);
+    out.print(user1.getId());
 %>
-<form action="TwoTask/DoModify.jsp" method="post">
+<%--DoModify.jsp--%>
+<form action="UpdateServlet?id=<%= user1.getId()%>" method="post">
     <table>
         <tr>
             <td>用户名：</td>

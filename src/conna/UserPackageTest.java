@@ -55,4 +55,14 @@ public class UserPackageTest {
         UserPackage userPackage = new UserPackage();
         User user1 = userPackage.SingQuire(user);
     }
+    @Test
+    public void ModifyPage(){
+        UserPackage up = new UserPackage();
+        User user = new User();
+        user.setId("15");
+        user.setUsername("123");
+        user.setPassword("123456");
+        user.setType("普通用户");
+        System.out.println(up.Modify(user));
+    }
 }

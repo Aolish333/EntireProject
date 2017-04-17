@@ -68,6 +68,7 @@ public class UserPackage {
             rs = ps.executeQuery();
             while (rs.next()) {
                 ReUser = new User();
+                ReUser.setId(rs.getString("id"));
                 ReUser.setUsername(rs.getString("user"));
                 ReUser.setPassword(rs.getString("password"));
                 ReUser.setType(rs.getString("type"));
@@ -109,7 +110,7 @@ public class UserPackage {
     }
 
     public int Modify(User user) {
-        String sql_add = "UPDATE test.users_l SET user = ?,password = ? WHERE id = ?";
+        String sql_add = "UPDATE jsp.users_l SET user = ?,password = ? ,type = ? WHERE id = ?;";
         Conn conn = new Conn();
         PreparedStatement ps = null;
         ResultSet rs = null;
@@ -120,7 +121,9 @@ public class UserPackage {
             ps = connection.prepareStatement(sql_add);
             ps.setString(1, user.getUsername());
             ps.setString(2, user.getPassword());
-            ps.setString(3, user.getId());
+            ps.setString(3, user.getType());
+            ps.setString(4, user.getId());
+
             row = ps.executeUpdate();
 
         } catch (SQLException e) {
