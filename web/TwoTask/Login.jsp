@@ -26,7 +26,7 @@
             <td><input type="submit" value="提交"></td>
         </tr>
     </table>
-    <a href="InSert.jsp">注册页面</a>
+    <a href="../InSert.jsp">注册页面</a>
 </form>
 </body>
 </html>

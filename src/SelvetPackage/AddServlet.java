@@ -31,7 +31,7 @@ public class AddServlet extends HttpServlet{
         int rs = pagingPackage.InsertUser(user);
         if (rs == 1){
             out.print("注册" + user.getUsername() + "成功");
-            resp.setHeader("refresh", "3,URL=Login.jsp");
+            resp.setHeader("refresh", "3,URL=index.jsp");
         } else {
             out.print("注册失败");
         }

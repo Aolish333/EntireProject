@@ -21,7 +21,7 @@
     UserPackage userPackage = new UserPackage();
     User user1 = userPackage.SingQuire(user);
 %>
-<form action="DoModify.jsp" method="post">
+<form action="TwoTask/DoModify.jsp" method="post">
     <table>
         <tr>
             <td>用户名：</td>

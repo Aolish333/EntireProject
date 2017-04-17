@@ -58,7 +58,7 @@
                 <a href="ModifyPage.jsp?id=<%=user.getId()%>">修改</a>
             </td>
             <td>
-                <a href="DoDelete.jsp?id=<%=user.getId()%>">删除</a>
+                <a href="TwoTask/DoDelete.jsp?id=<%=user.getId()%>">删除</a>
             </td>
         </tr>
         <%

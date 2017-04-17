@@ -19,7 +19,7 @@
     User user = new User();
     user.setId(id);
     UserPackage userPackage = new UserPackage();
-    flag = userPackage.DeleteUser(user);
+    int flag = userPackage.DeleteUser(user);
     if (flag==1) {
         out.print("删除成功！");
         response.setHeader("refresh","2,URL=ShowPage.jsp");
